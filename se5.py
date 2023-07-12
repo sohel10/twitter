@@ -32,6 +32,6 @@ if st.button("Predict"):
     # Display the predicted sentiment
     if prediction == 'Harm':
         st.subheader("The sentiment of given text is: Harm")
-    elif prediction == 'Non Harm':
-        st.subheader("The sentiment of given text is: Non Harm")
+    elif prediction == 'Not Harm':
+        st.subheader("The sentiment of given text is: Not Harm")
 
