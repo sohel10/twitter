@@ -16,7 +16,7 @@ with open("tfidf_vectorizer.pkl", "rb") as file:
     vectorizer = pickle.load(file)
 # Streamlit app code
 st.title("Twitter Speech Analysis App")
-st.markdown("<span style='font-size: 20px;'><strong>By Sohel Ahmed</strong></span>", unsafe_allow_html=True")
+st.markdown("<span style='font-size: 20px;'><strong>By Sohel Ahmed</strong></span>", unsafe_allow_html=True)
 image = Image.open("Twitter.png")
 st.image(image, use_column_width=True)
 
